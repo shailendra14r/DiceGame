@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    height: 15vh;
+    color:white;
+    text-align: center;
+    background-color: black;
+    box-sizing: border-box;
+}
+.arena{
+    height: 85vh;
+    width: 100%;
+    background-color:rgb(237, 215, 250);
+}
+.playingarea{
+    min-height: 46vh;
+    height: auto;
+    width: 100%;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+}
+.pdice{
+    margin-right: 8%;
+    display:inline-block;
+}
+.image{
+    border-radius: 35px;
+}
+.caption{
+    width: 100%;
+    font-weight: 900;
+    font-size: 20px;
+    text-align: center;
+}
+.center{
+    text-align: center;
+}
+.btn{
+    height: 40px;
+    width: 80px;
+    font-size: 22px;
+    background-color:rgb(202, 127, 255);
+    border-radius: 9px;
+    cursor: pointer;
+}
+.result{
+    padding: 10px;
+    font-size: 22px;
+}
